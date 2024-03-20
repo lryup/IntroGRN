@@ -1,27 +1,11 @@
 # IntroGRN
-IntroGRN: 
+IntroGRN: Gene Regulatory Network Inference from scRNA Data Based on Introspective VAE
 
 # Architecture
 
 ![MDWGANGP2](/images/IntroGRN_arc.png)
 
-# Data sources
-Download this small data, run the experiment.
-E_coli:https://github.com/rvinas/adversarial-gene-expression/tree/master/data/E_coli_v4_Build_6
 
-TCGA and GTEx dataset:https://github.com/mskcc/RNAseqDB/tree/master/data/normalized
-
-PPI
-
-HumanNet V3:https://staging2.inetbio.org/humannetv3/download.php
-
-String :https://cn.string-db.org/cgi/download?sessionId=b9sL0FbgoiPo
-
-
-
-Homo sapiens reference genome database pipeline GRCh38 GRCh38 (https://www.ncbi.nlm.nih.gov/genome/annotation_euk/Homo_sapiens/ 106/) 
-
-Genes (ENSG), transcripts (ENST) and proteins (ENSP),  **interconversion**
 
 # Runing Processes
 
@@ -29,24 +13,19 @@ Genes (ENSG), transcripts (ENST) and proteins (ENSP),  **interconversion**
 
 2.conda activate your_env_name
 
-3. **Note You do not need to install all packages. Select the required packages.**
-
-  #conda install --yes --file requirements.txt
-
 ```
-python main.py
+python run.py
 ```
-
-
+3. See the tutorial for the running process and results.
 
 # References
 
 - Thanks to the following authors for their papers and codes.
 
-  [1] VIAS R, ANDRS-TERR H, LI P, et al. Adversarial generation of gene expression data [J]. Bioinformatics, 2022, 38(3): 730-7.
+  [1] Pratapa, A., Jalihal, A.P., Law, J.N., Bharadwaj, A., Murali, T.: Benchmarking algorithms for gene regulatory network inference from single-cell transcriptomic data. Nature methods 17(2), 147–154 (2020)
 
-  [2] TRAN N-T, TRAN V-H, NGUYEN N-B, et al. On data augmentation for gan training [J]. IEEE Transactions on Image Processing, 2021, 30: 1882-97.
+  [2] Shu, H., Zhou, J., Lian, Q., Li, H., Zhao, D., Zeng, J., Ma, J.: Modeling gene regulatory networks using neural network architectures. Nature Computational Science 1(7), 491–501 (2021)
 
-  [3] WANG J, MA A, CHANG Y, et al. scGNN is a novel graph neural network framework for single-cell RNA-Seq analyses [J]. Nature communications, 2021, 12(1): 1-11.
+  [3] Zhu, H., Slonim, D.: Grn-vae: A simplified and stabilized sem model for gene regulatory network inference. bioRxiv pp. 2023–01 (2023)
 
   
