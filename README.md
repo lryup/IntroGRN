@@ -1,5 +1,5 @@
 # IntroGRN
-IntroGRN: Gene Regulatory Network Inference from scRNA Data Based on Introspective VAE
+IntroGRN: Gene Regulatory Network Inference from single-cell RNA Data Based on Introspective VAE
 
 # Architecture
 
